@@ -1,5 +1,5 @@
 
-const inputEl = document.querySelector('input');
+const inputEl = document.querySelector('input#validation-input');
 const numb = Number(inputEl.getAttribute('data-length'));
 // console.log(numb);
 // console.log(inputEl);
