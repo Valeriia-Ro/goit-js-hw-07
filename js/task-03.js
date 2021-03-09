@@ -20,15 +20,11 @@ const imagesEl = document.querySelector('#gallery');
 
 const gallery = images.map(option => {
 
-  return `<li><img alt ="${option.alt}" src="${option.url}"></img></li>`;
-  
-});
+  return `<li class="image-item"><img class="photo" alt ="${option.alt}" src="${option.url}"></img></li>`;
 
-console.log(gallery);
+});
 
 const galleryStr = gallery.join('');
 
-imagesEl.insertAdjacentElement('afterbegin', galleryStr);
-
-console.log(galleryStr);
+imagesEl.insertAdjacentHTML('afterbegin', galleryStr);
 

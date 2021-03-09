@@ -9,3 +9,35 @@
 #validation-input.invalid {
     border-color: #f44336;
 }
+
+#counter {
+    padding: 12px;
+}
+
+#font-size-control {
+    margin: 30px;
+}
+
+.controler {
+    margin-top: 25px;
+}
+
+
+#gallery {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.image-item {
+    width: 460px;
+    height: 290px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.photo {
+    width: 460px;
+    height: 290px;
+
+}

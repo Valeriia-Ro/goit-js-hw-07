@@ -17,6 +17,3 @@ decrementBtn.addEventListener('click',  () => {
     console.log('-');
 });
 
-
-// console.log(counterValue);
-// console.log(decrementBtn);
