@@ -8,5 +8,9 @@ input.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
     console.log('event.currentTarget.value');
-    span.textContent = event.currentTarget.value;
+    if (event.currentTarget.value.length >= 1) {
+        return span.textContent = event.currentTarget.value;
+    } return span.textContent = 'незнакомец';
+    
+    
 }
